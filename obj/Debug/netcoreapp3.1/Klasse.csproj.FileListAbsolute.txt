@@ -1,0 +1,13 @@
+C:\Projekt\Klasse\bin\Debug\netcoreapp3.1\Klasse.exe
+C:\Projekt\Klasse\bin\Debug\netcoreapp3.1\Klasse.deps.json
+C:\Projekt\Klasse\bin\Debug\netcoreapp3.1\Klasse.runtimeconfig.json
+C:\Projekt\Klasse\bin\Debug\netcoreapp3.1\Klasse.runtimeconfig.dev.json
+C:\Projekt\Klasse\bin\Debug\netcoreapp3.1\Klasse.dll
+C:\Projekt\Klasse\bin\Debug\netcoreapp3.1\Klasse.pdb
+C:\Projekt\Klasse\obj\Debug\netcoreapp3.1\Klasse.csprojAssemblyReference.cache
+C:\Projekt\Klasse\obj\Debug\netcoreapp3.1\Klasse.AssemblyInfoInputs.cache
+C:\Projekt\Klasse\obj\Debug\netcoreapp3.1\Klasse.AssemblyInfo.cs
+C:\Projekt\Klasse\obj\Debug\netcoreapp3.1\Klasse.csproj.CoreCompileInputs.cache
+C:\Projekt\Klasse\obj\Debug\netcoreapp3.1\Klasse.dll
+C:\Projekt\Klasse\obj\Debug\netcoreapp3.1\Klasse.pdb
+C:\Projekt\Klasse\obj\Debug\netcoreapp3.1\Klasse.genruntimeconfig.cache
