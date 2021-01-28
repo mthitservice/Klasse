@@ -19,7 +19,7 @@ namespace Klasse
             a1.ps=90;
             a1.tanken(60);
             a1.tanken(5);
-
+           
             rg=a1.zeigeTankinhalt();
 
             Console.WriteLine("Tankinhalt:{0}",rg);
@@ -63,7 +63,7 @@ namespace Klasse
     // Methoden
     public void tanken(int liter)
     {
-        this._tankinhalt=this._tankinhalt+liter;
+        this._tankinhalt=rechne(this._tankinhalt,liter);
 
     }
 
@@ -71,6 +71,12 @@ namespace Klasse
     {
 
         return this._tankinhalt;
+
+    }
+
+    private int rechne(int a,int b)
+    {
+        return a+b;
 
     }
 
