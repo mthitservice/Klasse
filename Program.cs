@@ -20,7 +20,7 @@ namespace Klasse
             
             gibAus(Wert1,Wert2);
             gibAus(a1);
-
+ // Ausgabe
 
 
             Console.WriteLine("Hello World!");
