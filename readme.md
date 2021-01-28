@@ -1,4 +1,5 @@
 +++++++++++++++++++++++++++++++++++++++++++
 +                                         +
-+       Übungsprojekt: Fachinformatiker   ++                                         +
++       Übungsprojekt: Fachinformatiker   +
++                                         +
 +++++++++++++++++++++++++++++++++++++++++++
