@@ -18,9 +18,9 @@ namespace Klasse
             
             a1=new Auto(); // Instanziierung
             l1=new Lkw();
-
+        
             l1.farbe= "Gelb";
-
+            l1.hupen();
             a1.farbe="rot";
             a1.ps=90;
             a1.tanken(60);
