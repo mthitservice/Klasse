@@ -9,6 +9,9 @@ namespace Klasse
         { // Deklaration von Variablen
             Auto a1;  // Verweistypen
             Lkw l1;
+            Teilnehmer t1 =new Teilnehmer("Lindner","Michael");
+
+            Console.WriteLine(t1.Nachname);
         
             int[] zliste=new int[5]; // Verweistyp
             int Wert1 =45; // Wertetyp;
