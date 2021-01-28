@@ -11,13 +11,18 @@ namespace Klasse
             int[] zliste=new int[5]; // Verweistyp
             int Wert1 =45; // Wertetyp;
             string Wert2 = "gelb";
-
+            int rg;
             // Iitialisiere Variablen
             
             a1=new Auto(); // Instanziierung
             a1.farbe="rot";
             a1.ps=90;
-            
+            a1.tanken(60);
+            a1.tanken(5);
+
+            rg=a1.zeigeTankinhalt();
+
+            Console.WriteLine("Tankinhalt:{0}",rg);
             gibAus(Wert1,Wert2);
             gibAus(a1);
  // Ausgabe
@@ -54,6 +59,20 @@ namespace Klasse
     // Variable mit öffentlichen Zugriff
     public string farbe;
     public  int ps;
+
+    // Methoden
+    public void tanken(int liter)
+    {
+        this._tankinhalt=this._tankinhalt+liter;
+
+    }
+
+    public int zeigeTankinhalt()
+    {
+
+        return this._tankinhalt;
+
+    }
 
 
 
