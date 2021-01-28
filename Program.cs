@@ -1,4 +1,5 @@
 ﻿using System;
+using Klasse.Hilfsklassen;
 
 namespace Klasse
 {
@@ -7,6 +8,7 @@ namespace Klasse
         static void Main(string[] args)
         { // Deklaration von Variablen
             Auto a1;  // Verweistypen
+            Lkw l1;
         
             int[] zliste=new int[5]; // Verweistyp
             int Wert1 =45; // Wertetyp;
@@ -15,6 +17,10 @@ namespace Klasse
             // Iitialisiere Variablen
             
             a1=new Auto(); // Instanziierung
+            l1=new Lkw();
+
+            l1.farbe= "Gelb";
+
             a1.farbe="rot";
             a1.ps=90;
             a1.tanken(60);
@@ -25,6 +31,9 @@ namespace Klasse
             Console.WriteLine("Tankinhalt:{0}",rg);
             gibAus(Wert1,Wert2);
             gibAus(a1);
+            gibAus(l1);
+
+
  // Ausgabe
 
 
@@ -62,20 +71,33 @@ namespace Klasse
 
     // Methoden
     public void tanken(int liter)
-    {
+    {// E
+        
+     //V
         this._tankinhalt=rechne(this._tankinhalt,liter);
+
+    // A
 
     }
 
     public int zeigeTankinhalt()
-    {
+    { //E 
+
+    // V
+
+        //A
 
         return this._tankinhalt;
 
     }
 
     private int rechne(int a,int b)
-    {
+    {// E
+
+    //V
+
+
+    //A
         return a+b;
 
     }
